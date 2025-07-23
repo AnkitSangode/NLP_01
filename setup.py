@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Deep-learining-end-to-end"
+REPO_NAME = "NLP_01"
 AUTHOR_USER_NAME = "Ankit"
-SRC_REPO = "CNN_Classifier"
+SRC_REPO = "textsummarizer"
 AUTHOR_EMAIL = "ankit.sangode0911@gmail.com"
 
 
@@ -17,7 +17,7 @@ setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A small python project for NLP app",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
